@@ -112,7 +112,7 @@ mod test {
 
 
     #[test]
-    fn test_print_all() -> Result<()> {
+    fn print_all() -> Result<()> {
         let config: Config = Opts {
             args: vec![],
             config: None,
